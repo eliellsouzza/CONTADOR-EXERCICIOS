@@ -1,0 +1,86 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 100vh;
+    background-color: #f8f8f8;
+    box-sizing: border-box;
+}
+
+#header, #footer {
+    background-color: #007bff;
+    color: #fff;
+    width: 100%;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    left: 0;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+}
+
+#header {
+    top: 0;
+}
+
+#footer {
+    bottom: 0;
+}
+
+#content {
+    padding: 20px;
+    box-sizing: border-box;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    margin: 80px 20px;
+    color: #333;
+    text-align: center; /* Centraliza o conteúdo */
+}
+
+h1, h2, h3 {
+    color: #333;
+}
+
+a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+button {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+#exerciseCounter {
+    font-size: 36px; /* Tamanho da fonte */
+    font-weight: bold; /* Negrito */
+    color: #333; /* Cor do texto */
+    background-color: #f8f9fa; /* Cor de fundo */
+    padding: 10px 20px; /* Espaçamento interno */
+    border-radius: 10px; /* Borda arredondada */
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1); /* Sombra */
+    margin: 20px auto; /* Centraliza horizontalmente */
+    max-width: 200px; /* Largura máxima */
+    transition: background-color 0.3s, color 0.3s; /* Transição suave de cores */
+}
+
+#exerciseCounter:hover {
+    background-color: #007bff; /* Altera a cor de fundo ao passar o mouse */
+    color: #fff; /* Altera a cor do texto ao passar o mouse */
+    cursor: pointer; /* Mostra o cursor como ponteiro ao passar o mouse */
+}
